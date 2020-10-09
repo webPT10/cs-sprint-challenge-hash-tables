@@ -14,6 +14,12 @@ def reconstruct_trip(tickets, length):
     for ticket in tickets:
         source = ticket.source
         dest = ticket.destination
-        
+
+        veritas[source] = dest
+
+    current = veritas["NONE"]
+    route = []
+
+    
 
     return route
