@@ -20,6 +20,10 @@ def reconstruct_trip(tickets, length):
     current = veritas["NONE"]
     route = []
 
-    
+    while current is not "NONE":
+        route.append(current)
+        current = veritas[current]
+        
+    route.append(current)
 
     return route
