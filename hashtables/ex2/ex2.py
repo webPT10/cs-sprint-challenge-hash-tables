@@ -8,5 +8,12 @@ class Ticket:
 
 def reconstruct_trip(tickets, length):
     
+    
+    veritas = {}
+
+    for ticket in tickets:
+        source = ticket.source
+        dest = ticket.destination
+        
 
     return route
