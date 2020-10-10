@@ -1,8 +1,23 @@
 def intersection(arrays):
-    """
-    YOUR CODE HERE
-    """
-    # Your code here
+    
+    intersection = {}
+    result = []
+    
+    for counter, arr in enumerate(arrays):
+        
+        for num in arr:
+            if intersection.get(num) is not None and counter > 0:
+                intersection[num] += 1
+            
+            elif intersection.get(num) is None and counter == 0:
+                intersection[num] = 1
+
+            else:
+                continue
+
+    for value in intersection:
+        if intersection[value] == len(arrays):
+            result.append(value)
 
     return result
 
