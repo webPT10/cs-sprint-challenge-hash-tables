@@ -1,5 +1,11 @@
 def has_negatives(a):
     
+    digits = {}
+    result = []
+
+    for num in a:
+
+        if ( num * -1 ) in digits:
 
     return result
 
