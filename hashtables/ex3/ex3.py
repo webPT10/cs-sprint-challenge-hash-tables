@@ -1,10 +1,6 @@
 def intersection(arrays):
-    intersection = {} 
-    results = []
 
     
-
-
 
     return result
 
