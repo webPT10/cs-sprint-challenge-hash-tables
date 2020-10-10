@@ -4,6 +4,15 @@ def intersection(arrays):
     result = []
     
     for counter, arr in enumerate(arrays):
+        for num in arr:
+            if intersection.get(num) is not None and counter > 0:
+                intersection[num] += 1
+            
+            elif intersection.get(num) is None and counter == 0:
+                intersection[num] = 1
+
+            else:
+                continue
 
     return result
 
