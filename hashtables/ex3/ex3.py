@@ -1,6 +1,9 @@
 def intersection(arrays):
-
     
+    intersection = {}
+    result = []
+    
+    for counter, arr in enumerate(arrays):
 
     return result
 
