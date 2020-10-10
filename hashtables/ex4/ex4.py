@@ -6,6 +6,10 @@ def has_negatives(a):
     for num in a:
 
         if ( num * -1 ) in digits:
+            result.append(abs(num))
+        
+        else:
+            digits[num] = num
 
     return result
 
