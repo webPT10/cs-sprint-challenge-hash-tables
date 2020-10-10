@@ -23,11 +23,23 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
 1. Hashing functions
+### a module that is used to return the hash value of an object
+
 2. Collision resolution
+### When two items hash to the same slot, there must be a systematic method for placing the second item in the hash table.
+
 3. Performance of basic hash table operations
+###
+
 4. Load factor
+### Is a measure of how full the hash table is allowed to get before its capacity is automatically increased
+
 5. Automatic resizing
+###
+
 6. Various use cases for hash tables
+### simpler to implement than search trees 
+### sorting & searching
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
