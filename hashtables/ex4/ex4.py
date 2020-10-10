@@ -1,8 +1,5 @@
 def has_negatives(a):
-    """
-    YOUR CODE HERE
-    """
-    # Your code here
+    
 
     return result
 
